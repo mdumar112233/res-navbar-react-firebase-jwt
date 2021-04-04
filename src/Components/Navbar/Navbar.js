@@ -12,7 +12,10 @@ const Navbar = () => {
                     <a href="">Contact us</a>
                 </div>
             </div>
-            <div className="rightSide"></div>
+            <div className="rightSide">
+                <input type="text" placeholder='search here'/>
+                <button>Search</button>
+            </div> 
         </div>
     );
 };
